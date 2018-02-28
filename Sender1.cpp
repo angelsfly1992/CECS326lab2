@@ -12,6 +12,9 @@ struct buf {
 
 //current sender type
 int sender_type=0;
+	
+//Signal handler to receive kill signal
+void sig_handler(int);
 
 
 //random 100 numbers value
