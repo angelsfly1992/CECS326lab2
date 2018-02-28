@@ -6,9 +6,9 @@ using namespace std
 
 
 struct buf {
-	int mtype;
+	int mtype; //Type of Message Data/Ack/Terminate mesage
 	int data;
-);
+); buf message_buf;
 
 //current sender type
 int sender_type=0;
